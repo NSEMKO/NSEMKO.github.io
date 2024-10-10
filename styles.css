@@ -42,22 +42,25 @@ h2 {
 }
 
 .project img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(126, 14, 201); /* Chosen color */
     display: block;
-    margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-}
-
-.project img:hover {
-    transform: scale(1.05);
+    margin: auto;
 }
 
 .project p {
     font-size: 1.1em;
     color: #7f8c8d;
     margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover h3 {
+    text-decoration: underline;
 }
