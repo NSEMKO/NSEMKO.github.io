@@ -25,13 +25,19 @@ h2 {
 .projects {
     width: 80%;
     margin: 20px auto;
-    padding: 20px;
+    padding: 30px; /* Increased padding */
     background-color: #fff;
+    border-radius: 8px; /* Optional: rounded corners */
 }
 
 .project {
     margin-bottom: 30px;
     text-align: center;
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.project:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Hover effect */
 }
 
 .project h3 {
@@ -54,16 +60,33 @@ h2 {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: #2980b9; /* Link color */
 }
 
-a:hover h3 {
-    text-decoration: underline;
+a:hover {
+    color: #1abc9c; /* Hover color */
 }
+
 img {
     width: 100%;  /* Adjust size */
     max-width: 400px;  /* Restrict maximum width */
     height: auto;  /* Maintain aspect ratio */
     display: block;
     margin: 0 auto;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Smaller font size for mobile */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Smaller subheading size */
+    }
+
+    .projects {
+        width: 95%; /* Full width on mobile */
+        padding: 15px; /* Adjust padding */
+    }
 }
