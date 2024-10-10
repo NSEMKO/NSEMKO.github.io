@@ -75,18 +75,12 @@ img {
     margin: 0 auto;
 }
 
-/* Responsive design */
-@media (max-width: 600px) {
-    h1 {
-        font-size: 2em; /* Smaller font size for mobile */
-    }
-
-    h2 {
-        font-size: 1.5em; /* Smaller subheading size */
-    }
-
-    .projects {
-        width: 95%; /* Full width on mobile */
-        padding: 15px; /* Adjust padding */
-    }
+/* Styles for the project image */
+.project img {
+    width: 100%;           
+    max-width: 400px;     
+    height: auto;         
+    display: block;        
+    margin: 20px auto;    
+    border-radius: 8px;   
 }
