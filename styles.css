@@ -1,7 +1,6 @@
-/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
+    background-color: #eef2f3;
     color: #333;
     margin: 0;
     padding: 0;
@@ -9,7 +8,7 @@ body {
 
 h1, h2 {
     text-align: center;
-    color: #2c3e50;
+    color: #4a90e2;
 }
 
 h1 {
@@ -25,31 +24,36 @@ h2 {
 .projects {
     width: 80%;
     margin: 20px auto;
-    padding: 30px; /* Increased padding */
-    background-color: #fff;
-    border-radius: 8px; /* Optional: rounded corners */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .project {
     margin-bottom: 30px;
     text-align: center;
-    transition: box-shadow 0.3s ease; /* Smooth transition */
-}
-
-.project:hover {
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Hover effect */
 }
 
 .project h3 {
     font-size: 1.5em;
-    color: #2980b9;
+    color: #d35400;
     margin-bottom: 10px;
 }
 
 .project img {
     width: 100%;
     max-width: 400px;
-    margin-top: 10px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.project img:hover {
+    transform: scale(1.05);
 }
 
 .project p {
@@ -58,29 +62,4 @@ h2 {
     margin-top: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: #2980b9; /* Link color */
-}
-
-a:hover {
-    color: #1abc9c; /* Hover color */
-}
-
-img {
-    width: 100%;  /* Adjust size */
-    max-width: 400px;  /* Restrict maximum width */
-    height: auto;  /* Maintain aspect ratio */
-    display: block;
-    margin: 0 auto;
-}
-
-/* Styles for the project image */
-.project img {
-    width: 100%;           
-    max-width: 400px;     
-    height: auto;         
-    display: block;        
-    margin: 20px auto;    
-    border-radius: 8px;   
-}
+a
