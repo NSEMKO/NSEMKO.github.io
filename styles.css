@@ -51,12 +51,8 @@ h2 {
 }
 
 a {
-    text-decoration: none;
     color: inherit;
-}
-
-a:hover h3 {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* About and Skills Section */
