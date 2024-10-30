@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef2f3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #4a90e2;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+}
+
+.projects {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    color: #d35400;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.project img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(126, 14, 201);
+    display: block;
+    margin: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project p {
+    font-size: 1.1em;
+    color: #7f8c8d;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover h3 {
+    text-decoration: underline;
+    color: #4a90e2;
+}
+
+.project a img[src="images/Platform-applcation.png"] {
+    border: 2px solid #3498db;
+}
+
+.project a[href="files/Platform-applcation.pdf"] h3 {
+    color: #2c3e50;
+}
+
+.project a:hover[href="files/Platform-applcation.pdf"] h3 {
+    color: #2980b9;
+}
