@@ -1,4 +1,4 @@
-
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +6,9 @@
     font-family: Arial, sans-serif;
 }
 
+/* Body Styling */
 body {
-    background-color: #f9f9f9;
+    background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
     padding: 20px;
@@ -16,12 +17,14 @@ body {
     align-items: center;
 }
 
+/* Main Title */
 h1 {
     color: #0056b3;
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
+/* Section Titles */
 h2 {
     color: #333;
     font-size: 1.8em;
@@ -29,28 +32,44 @@ h2 {
     text-align: center;
 }
 
+/* Section Containers */
 .about, .skills, .projects {
     width: 100%;
     max-width: 800px;
-    margin: 10px auto;
-    padding: 15px;
+    margin: 15px auto;
+    padding: 20px;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* About Section Styling */
+.about img {
+    float: left;
+    margin-right: 15px;
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.about p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #555;
+    text-align: justify;
+}
+
+/* Project Section */
 .project {
     margin-top: 20px;
     text-align: center;
 }
-
 .project h3 {
     font-size: 1.5em;
     color: #0056b3;
     margin-bottom: 10px;
 }
-
 .project img {
     max-width: 100%;
     height: auto;
@@ -59,21 +78,19 @@ h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s;
 }
-
 .project img:hover {
     transform: scale(1.05);
 }
-
 .project p {
     color: #666;
     margin-top: 10px;
 }
 
+/* Links */
 a {
     color: inherit;
     text-decoration: none;
 }
-
-a:hover h3, a:hover img {
+a:hover h3 {
     color: #003f7d;
 }
