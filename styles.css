@@ -60,6 +60,26 @@ h2 {
     text-align: justify;
 }
 
+/* Skills Section Styling */
+.skills p {
+    margin: 10px 0;
+    text-align: justify;
+    font-size: 1.1em;
+    color: #555;
+}
+.skills b {
+    color: #0056b3;
+    font-weight: bold;
+}
+.skills a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+.skills a:hover {
+    text-decoration: underline;
+}
+
 /* Project Section */
 .project {
     margin-top: 20px;
