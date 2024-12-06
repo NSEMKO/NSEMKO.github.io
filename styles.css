@@ -104,9 +104,19 @@ h2 {
 .project p {
     color: #666;
     margin-top: 10px;
+    font-size: 1.1em;
+    text-align: center;
 }
 
-/* Link for Sketch */
+/* Paper Model Specific Styling */
+.project a img {
+    border: 2px solid #0056b3;
+    transition: border-color 0.3s, transform 0.3s;
+}
+.project a img:hover {
+    border-color: #003f7d;
+    transform: scale(1.1);
+}
 .project p a {
     display: inline-block;
     margin-top: 10px;
