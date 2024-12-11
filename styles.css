@@ -96,10 +96,11 @@ h2 {
     margin-top: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 .project img:hover {
     transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 .project p {
     color: #666;
@@ -107,8 +108,6 @@ h2 {
     font-size: 1.1em;
     text-align: center;
 }
-
-/* Paper Model Specific Styling */
 .project a img {
     border: 2px solid #0056b3;
     transition: border-color 0.3s, transform 0.3s;
